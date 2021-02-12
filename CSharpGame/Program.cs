@@ -8,7 +8,7 @@ namespace CSharpGame
 {
     static class Program
     {
-        /// <summary>
+        /// <summary> Test
         ///  The main entry point for the application.
         /// </summary>
         [STAThread]
