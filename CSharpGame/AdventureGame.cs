@@ -17,5 +17,14 @@ namespace CSharpGame
             InitializeComponent();
         }
 
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnFirst_Click(object sender, EventArgs e)
+        {
+            labelGold.Text = "700";
+        }
     }
 }
