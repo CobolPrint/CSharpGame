@@ -25,6 +25,9 @@ namespace CSharpGame
             labelXP.Text = _player.XP.ToString();
         }
 
-        
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
