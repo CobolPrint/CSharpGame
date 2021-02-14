@@ -14,15 +14,10 @@ namespace CSharpGame
 {
     public partial class AdventureGame : Form
     {
-        Player _player = new Player();
+        Player _player = new Player(20, 0, 1, 10, 10);
         public AdventureGame()
         {
             InitializeComponent();
-            _player.CurrentHP = 10;
-            _player.MaxHP = 10;
-            _player.CurrentGold = 20;
-            _player.XP = 0;
-            _player.Lvl = 1;
 
             labelGold.Text = _player.CurrentGold.ToString();
             labelHitPoints.Text = _player.CurrentHP.ToString();

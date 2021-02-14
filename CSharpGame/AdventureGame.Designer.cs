@@ -103,9 +103,9 @@ namespace CSharpGame
             this.labelExperiance.AutoSize = true;
             this.labelExperiance.Location = new System.Drawing.Point(13, 74);
             this.labelExperiance.Name = "labelExperiance";
-            this.labelExperiance.Size = new System.Drawing.Size(64, 15);
+            this.labelExperiance.Size = new System.Drawing.Size(67, 15);
             this.labelExperiance.TabIndex = 8;
-            this.labelExperiance.Text = "Experiance";
+            this.labelExperiance.Text = "Experiance:";
             // 
             // AdventureGame
             // 

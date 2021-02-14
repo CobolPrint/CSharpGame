@@ -6,7 +6,16 @@ namespace Engine
 {
     public class Weapon : Item
     {
-        public int MinimumDamage { get; set; }
-        public int MaximumDamage { get; set; }
+        public int MinDamage { get; set; }
+        public int MaxDamage { get; set; }
+
+        public Weapon(int id, string name, string namePlural, int minDamage, int maxDamage) : base(id, name, namePlural)
+        {
+            ID = id;
+            Name = name;
+            NamePlural = namePlural;
+            MinDamage = minDamage;
+            MaxDamage = maxDamage;
+        }
     }
 }
