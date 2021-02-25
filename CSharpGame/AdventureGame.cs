@@ -29,5 +29,35 @@ namespace CSharpGame
         {
 
         }
+
+        private void buttonNorth_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonWest_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonSouth_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonEast_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonUseWeapon_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonUsePotion_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

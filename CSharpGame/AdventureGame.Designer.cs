@@ -155,6 +155,7 @@ namespace CSharpGame
             this.buttonUseWeapon.TabIndex = 12;
             this.buttonUseWeapon.Text = "Use";
             this.buttonUseWeapon.UseVisualStyleBackColor = true;
+            this.buttonUseWeapon.Click += new System.EventHandler(this.buttonUseWeapon_Click);
             // 
             // buttonUsePotion
             // 
@@ -164,6 +165,7 @@ namespace CSharpGame
             this.buttonUsePotion.TabIndex = 13;
             this.buttonUsePotion.Text = "Use";
             this.buttonUsePotion.UseVisualStyleBackColor = true;
+            this.buttonUsePotion.Click += new System.EventHandler(this.buttonUsePotion_Click);
             // 
             // buttonNorth
             // 
@@ -173,6 +175,7 @@ namespace CSharpGame
             this.buttonNorth.TabIndex = 14;
             this.buttonNorth.Text = "North";
             this.buttonNorth.UseVisualStyleBackColor = true;
+            this.buttonNorth.Click += new System.EventHandler(this.buttonNorth_Click);
             // 
             // buttonEast
             // 
@@ -182,6 +185,7 @@ namespace CSharpGame
             this.buttonEast.TabIndex = 15;
             this.buttonEast.Text = "East";
             this.buttonEast.UseVisualStyleBackColor = true;
+            this.buttonEast.Click += new System.EventHandler(this.buttonEast_Click);
             // 
             // buttonSouth
             // 
@@ -191,6 +195,7 @@ namespace CSharpGame
             this.buttonSouth.TabIndex = 16;
             this.buttonSouth.Text = "South";
             this.buttonSouth.UseVisualStyleBackColor = true;
+            this.buttonSouth.Click += new System.EventHandler(this.buttonSouth_Click);
             // 
             // buttonWest
             // 
@@ -200,6 +205,7 @@ namespace CSharpGame
             this.buttonWest.TabIndex = 17;
             this.buttonWest.Text = "West";
             this.buttonWest.UseVisualStyleBackColor = true;
+            this.buttonWest.Click += new System.EventHandler(this.buttonWest_Click);
             // 
             // richTextBoxLocation
             // 
@@ -252,7 +258,7 @@ namespace CSharpGame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1218, 610);
+            this.ClientSize = new System.Drawing.Size(1660, 930);
             this.Controls.Add(this.dataGridViewQuests);
             this.Controls.Add(this.dataGridViewInventory);
             this.Controls.Add(this.richMessages);
